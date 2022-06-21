@@ -1,0 +1,22 @@
+{
+    "name": "weather",
+    "version": "1.0.0",
+    "description": "Weather CLI applocation",
+    "main": "weather.js",
+    "bin": "weather.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "weather"
+    ],
+    "author": "Vavilov Konstantin",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.27.2",
+        "chalk": "^5.0.1",
+        "dedent-js": "^1.0.1",
+        "node-emoji": "^1.11.0"
+    }
+}
